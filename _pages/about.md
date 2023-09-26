@@ -1,26 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: I'm an XR developer with a side of an aspiring game developer. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.png 
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Copenhagen, Denmark</p>
 
-news: true  # includes a list of news items
+news: false # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Video games in all forms and shapes are my biggest passion, and computer graphics are one of their fundamental components, which I find exceptionally compelling. After all, just a set of lit pixels allows us to take a peak into vast virtual worlds on our monitors, and how all that happens has been always so intriguing to me. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+While I believe, I've already built a decent understanding of the ins and outs of computer graphics, I'm continuously deepening my knowledge, and following the newest advancements in this area. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I also find the process of designing game mechanics and interactions fascinating. The interactivity is what makes video games so much more captivating when compared to other types of digital media. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I had always adored motion-controlled games and I still do to this very day, it was only natural for me to develop an immense interest in virtual and augmented reality. 
