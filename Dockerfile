@@ -13,6 +13,10 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
+RUN apt-get install -y tzdata
+ENV TZ=Europe/Copenhagen
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # add ruby and jekyll
 RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
 RUN apt-get install imagemagick -y
@@ -37,4 +41,4 @@ ENV JEKYLL_ENV=production
 
 EXPOSE 8080
 
-CMD ["/bin/bash", "-c", "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"]
+CMD ["/bin/bash", "-c", "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling"]
