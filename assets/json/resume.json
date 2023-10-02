@@ -28,7 +28,7 @@
       "url": "https://www.ea.com/seed",
       "startDate": "2023",
       "endDate": "2023",
-      "summary": "Under the guidance of SEED's Future Graphics team, I carried out my Master Thesis with the title <a href='https://lup.lub.lu.se/student-papers/search/publication/9129143'>Exploration of Alternative Image Representation Using Signed Distance Functions</a>.",
+      "summary": "Under the guidance of SEED's Future Graphics team, I carried out my Master Thesis with the title <a href='https://lup.lub.lu.se/student-papers/search/publication/9129143'>Exploration of Alternative Image Representation Using Signed Distance Functions</a>. The goal of the thesis is to contribute to the advancement of alternative image representation techniques. By utilising machine learning, different error metrics, and various SDF characteristics, I explored a novel way for creating and storing computer generated imagery, which holds a promising potential for versatile rendering and visualisation possibilities.",
       "highlights": [
         "C++",
         "SDL",
@@ -41,10 +41,11 @@
       "url": "https://www.axis.com/",
       "startDate": "2022",
       "endDate": "2023",
-      "summary": "I was a developer of the Virtual Reality application meant for marketing and training new employees.",
+      "summary": "I was a developer of the Virtual Reality application meant for marketing and training new employees. My main responsibilities consisted of maintaining the codebase, implementing new features, designing interaction mechanics, both in C++ and Blueprint nodes, to make it possible for less technical members of the team to easily prototype their ideas.",
       "highlights": [
         "Unreal Engine 4",
-        "C++"
+        "C++",
+        "Meta Quest 2"
       ]
     },
     {
@@ -53,7 +54,7 @@
       "url": "https://www.nokia.com/",
       "startDate": "2020",
       "endDate": "2021",
-      "summary": "I was a member of the team responsible for developing an internal tool for reservation and management of virtual machines for testing software.",
+      "summary": "I was a member of the team responsible for developing and maintaining an internal tool for reservation and management of virtual machines for testing software. My main responsibility was frontend development. We created the tool from scratch, and it was being used by the whole department by the time I left the company.",
       "highlights": [
         "Django",
         "Vue.js",
@@ -96,30 +97,38 @@
   "publications": [],
   "skills": [
     {
-      "name": "C++",
-      "level": "Master",
-      "keywords": []
+      "name": "Programming Languages",
+      "keywords": [
+        "C++",
+        "C#",
+        "Python",
+        "JavaScript",
+        "Shell Scripting"
+      ]
     },
     {
-      "name": "C#"
+      "name": "Game Engines",
+      "keywords": [
+        "Unity",
+        "Unreal Engine"
+      ]
     },
     {
-      "name": "Python"
+      "name": "Graphics API",
+      "keywords": [
+        "OpenGL",
+        "DirectX 11"
+      ]
     },
     {
-      "name": "Git"
-    },
-    {
-      "name": "Unreal Engine"
-    },
-    {
-      "name": "Unity"
-    },
-    {
-      "name": "OpenGL"
-    },
-    {
-      "name": "DirectX 11"
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "Visual Studio",
+        "CMake",
+        "ImGui",
+        "Blender"
+      ]
     }
   ],
   "languages": [
